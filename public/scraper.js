@@ -1,4 +1,5 @@
-const tracksInit = "https://api-v2.soundcloud.com/playlists/1741782324?representation=full&client_id=GphvSG1RCC7XYa3C6gHQ9mn1yXo5tmIK&app_version=1703156451&app_locale=en"
+const tracksDJs = "https://api-v2.soundcloud.com/playlists/1741782324?representation=full&client_id=GphvSG1RCC7XYa3C6gHQ9mn1yXo5tmIK&app_version=1703156451&app_locale=en"
+const tracksProducers = "https://api-v2.soundcloud.com/playlists/1741786809?representation=full&client_id=GphvSG1RCC7XYa3C6gHQ9mn1yXo5tmIK&app_version=1703156451&app_locale=en"
 
 const tracksMore = "https://api-v2.soundcloud.com/tracks?client_id=GphvSG1RCC7XYa3C6gHQ9mn1yXo5tmIK&[object Object]=&app_version=1703156451&app_locale=en"
 
@@ -61,21 +62,63 @@ const femaleDJs = [
     "Calathea",
     "Yung Lucy",
     "elø",
+    "Parisha",
+    "Jaszaloth",
+    "Toxyblue",
+    "AstriDakini",
+    "Anne-Lu",
+    "Mono Fetish",
 ]
 
 var hardTechOnlyBool = false;
 var womenOnlyBool = false;
+var modus = "djs" // 0 = djs, 1 = producers, 2 == both
 
 $(document).ready(function () {
     console.log("loading tracks..");
+    $('select').val(modus);
     loadTracks();
 });
 
 
+function selectType(select) {
+    modus = select.value;
+    loadTracks();
+}
+
+
 function getIds() {
-    return $.getJSON(tracksInit).then(function(data) {
-        return data.tracks;
-    });
+    if (modus == "djs") {
+        return $.getJSON(tracksDJs).then(function(data) {
+            lst = data.tracks;
+            lst.forEach(item => {
+                item.artist = "DJ";
+            });
+            return lst;
+        });
+    }
+    else if (modus == "producers") {
+        return $.getJSON(tracksProducers).then(function(data) {
+            lst = data.tracks;
+            lst.forEach(item => {
+                item.artist = "Producer";
+            });
+            return lst;
+        });
+    }
+    else if (modus == "both") {
+        return $.getJSON(tracksProducers).then(function(data1) {
+            data1.tracks.forEach(item => {
+                item.artist = "Producer";
+            });
+            return $.getJSON(tracksDJs).then(function(data2) {
+                data2.tracks.forEach(item => {
+                    item.artist = "DJ";
+                });
+                return data1.tracks.concat(data2.tracks);
+            });
+        });
+    }
 }
 
 
@@ -89,11 +132,12 @@ function getTracks(trackstring) {
 function hardTechOnly(button) {
     if (button.value == "OFF") {
         button.value = "ON";
+        $("#genreButton").html("Click to display all genres");
     } else {
         button.value = "OFF";
+        $("#genreButton").html("Click to display only genre: Hard Techno");
     }
     hardTechOnlyBool = !hardTechOnlyBool;
-    $("#genreButton").html("Only Hardtechno: "+button.value);
     loadTracks();
 }
 
@@ -101,11 +145,12 @@ function hardTechOnly(button) {
 function womenOnly(button) {
     if (button.value == "OFF") {
         button.value = "ON";
+        $("#genderButton").html("Click to display all genders");
     } else {
         button.value = "OFF";
+        $("#genderButton").html("Click to display only Women");
     }
     womenOnlyBool = !womenOnlyBool;
-    $("#genderButton").html("Only Women: "+button.value);
     loadTracks();
 }
 
@@ -180,6 +225,7 @@ function getHTML(sortedTracks) {
         substr = substr.concat("<td>", track.femaleRanking, "</td>");
         substr = substr.concat("<td>", "<a href='", track.url,"'>", track.name, "</a>", "</td>");
         substr = substr.concat("<td>", track.genre, "</td>");
+        substr = substr.concat("<td>", track.artist, "</td>");
         substr = substr.concat("<td>", track.points, "</td>");
         substr = substr.concat("<td>", track.streams, "</td>");
         substr = substr.concat("<td>", track.likes, "</td>");
@@ -191,23 +237,21 @@ function getHTML(sortedTracks) {
 }
 
 
-function loadTracks(){
-    tracks = {}
-    let track_ids = []
+function loadTracks() {
+    let tracksArtist = {};
     $('.target').empty();
 
     getIds().then(function(first_tracks) {
         for (i = 0; i < first_tracks.length; i++) {
             track = first_tracks[i]
             if (track.hasOwnProperty('title')) {
-                tracks[track.publisher_metadata.id] = {"url": track.permalink_url, "name": track.title, "likes": track.likes_count, "streams": track.playback_count};
-                track_ids.push(track.publisher_metadata.id);
+                tracksArtist[track.publisher_metadata.id] = track.artist;
             } else {
-                tracks[track.id] = {}
-                track_ids.push(track.id);
+                tracksArtist[track.id] = track.artist;
             }
         }
 
+        track_ids = Object.keys(tracksArtist);
         var promises = [];
         const limit = Math.ceil(track_ids.length/50);
         for (j=0; j < limit; j++) {
@@ -228,6 +272,7 @@ function loadTracks(){
                                 "url": track.permalink_url,
                                 "name": track.title,
                                 "genre": track.genre,
+                                "artist": tracksArtist[track.id],
                                 "likes": track.likes_count,
                                 "streams": track.playback_count,
                                 "comments": track.comment_count,

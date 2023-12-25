@@ -11,8 +11,14 @@
         <h1>Hive 2024 DJ Contest Rankings</h1>
     </div>
     <div id="bodydiv">
-        <button id="genreButton" onclick="hardTechOnly(this)" value="OFF">Only Hardtechno: OFF</button>
-        <button id="genderButton" onclick="womenOnly(this)" value="OFF">Only Women: OFF</button>
+        <button id="genreButton" onclick="hardTechOnly(this)" value="OFF">Click to display only genre: Hard Techno</button>
+        <button id="genderButton" onclick="womenOnly(this)" value="OFF">Click to display only Women</button>
+        <select name="type" id="type" onchange="selectType(this)">
+          <option value="djs">Artist type: DJs</option>
+          <option value="producers">Artist type: Producers</option>
+          <option value="both">Artist type: Both</option>
+        </select>
+        <input type="button" value="Jump to LU SEAL" onClick="document.getElementById('luseal').scrollIntoView();" style="background-color: aquamarine;border-color: black;"/>
         <style type="text/css">
           .tg  {border-collapse:collapse;border-spacing:0;}
           .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -28,6 +34,7 @@
             <td class="tg-0lax">Ranking (women)</td>
             <td class="tg-0lax">DJ</td>
             <td class="tg-0lax">Genre</td>
+            <td class="tg-0lax">Type of artist</td>
             <td class="tg-0lax">Points</td>
             <td class="tg-0lax">Streams</td>
             <td class="tg-0lax">Likes</td>
