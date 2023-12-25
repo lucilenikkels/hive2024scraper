@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    font-size: large;
+}
+
+table {
+    width: 1000px;
+}
+
+#bodydiv {
+    display: block;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.female {
+    background-color: pink;
+}
+
+.male {
+    background-color: lightblue;
+}
+
+#luseal {
+    background-color: red;
+}

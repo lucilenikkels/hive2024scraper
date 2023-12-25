@@ -1,0 +1,1002 @@
+{
+    "artwork_url": "https://i1.sndcdn.com/artworks-JmC5mJKPoBhandT6-3H5oFg-large.jpg",
+    "created_at": "2023-12-20T11:22:05Z",
+    "description": "",
+    "duration": 271668041,
+    "embeddable_by": "all",
+    "genre": "",
+    "id": 1741786809,
+    "kind": "playlist",
+    "label_name": "",
+    "last_modified": "2023-12-23T14:06:48Z",
+    "license": "all-rights-reserved",
+    "likes_count": 14,
+    "managed_by_feeds": false,
+    "permalink": "hive2024-talent-contest",
+    "permalink_url": "https://soundcloud.com/hive-festival/sets/hive2024-talent-contest",
+    "public": true,
+    "purchase_title": null,
+    "purchase_url": null,
+    "release_date": null,
+    "reposts_count": 0,
+    "secret_token": null,
+    "sharing": "public",
+    "tag_list": "",
+    "title": "HIVE2024 Talent Factory - Producer",
+    "uri": "https://api.soundcloud.com/playlists/1741786809",
+    "user_id": 1103296669,
+    "set_type": "",
+    "is_album": false,
+    "published_at": "2023-12-23T09:36:50Z",
+    "display_date": "2023-12-23T09:36:50Z",
+    "user": {
+      "avatar_url": "https://i1.sndcdn.com/avatars-sycBeVqOklbBcHzy-j72XQg-large.jpg",
+      "first_name": "06. - 09.06.",
+      "followers_count": 7188,
+      "full_name": "06. - 09.06. 2024",
+      "id": 1103296669,
+      "kind": "user",
+      "last_modified": "2023-12-23T20:14:49Z",
+      "last_name": "2024",
+      "permalink": "hive-festival",
+      "permalink_url": "https://soundcloud.com/hive-festival",
+      "uri": "https://api.soundcloud.com/users/1103296669",
+      "urn": "soundcloud:users:1103296669",
+      "username": "HIVE Festival",
+      "verified": false,
+      "city": "Ferropolis",
+      "country_code": "DE",
+      "badges": {
+        "pro": false,
+        "pro_unlimited": true,
+        "verified": false
+      },
+      "station_urn": "soundcloud:system-playlists:artist-stations:1103296669",
+      "station_permalink": "artist-stations:1103296669"
+    },
+    "tracks": [
+      {
+        "artwork_url": "https://i1.sndcdn.com/artworks-MaW8UzNBkrzY3nL9-7mJunQ-large.jpg",
+        "caption": null,
+        "commentable": true,
+        "comment_count": 4,
+        "created_at": "2023-12-06T14:42:36Z",
+        "description": "IG: https://instagram.com/_mibian_?igshid=aWcybHVoYTY2bDBk\n\nSC: https://on.soundcloud.com/nKAVD\"",
+        "downloadable": false,
+        "download_count": 0,
+        "duration": 3757218,
+        "full_duration": 3757218,
+        "embeddable_by": "all",
+        "genre": "Industrial Hard techno",
+        "has_downloads_left": false,
+        "id": 1683761370,
+        "kind": "track",
+        "label_name": null,
+        "last_modified": "2023-12-23T12:50:31Z",
+        "license": "all-rights-reserved",
+        "likes_count": 11,
+        "permalink": "mibian",
+        "permalink_url": "https://soundcloud.com/hive-festival/mibian",
+        "playback_count": 118,
+        "public": true,
+        "publisher_metadata": {
+          "id": 1683761370,
+          "urn": "soundcloud:tracks:1683761370",
+          "contains_music": true
+        },
+        "purchase_title": null,
+        "purchase_url": null,
+        "release_date": null,
+        "reposts_count": 5,
+        "secret_token": null,
+        "sharing": "public",
+        "state": "finished",
+        "streamable": true,
+        "tag_list": "",
+        "title": "MIBIAN",
+        "track_format": "single-track",
+        "uri": "https://api.soundcloud.com/tracks/1683761370",
+        "urn": "soundcloud:tracks:1683761370",
+        "user_id": 1103296669,
+        "visuals": null,
+        "waveform_url": "https://wave.sndcdn.com/jOsu8lC92Ic6_m.json",
+        "display_date": "2023-12-23T09:41:36Z",
+        "media": {
+          "transcodings": [
+            {
+              "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1683761370/2aabf18f-8de1-463a-a6d9-5b9961d28aa1/stream/hls",
+              "preset": "mp3_1_0",
+              "duration": 3757218,
+              "snipped": false,
+              "format": {
+                "protocol": "hls",
+                "mime_type": "audio/mpeg"
+              },
+              "quality": "sq"
+            },
+            {
+              "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1683761370/2aabf18f-8de1-463a-a6d9-5b9961d28aa1/stream/progressive",
+              "preset": "mp3_1_0",
+              "duration": 3757218,
+              "snipped": false,
+              "format": {
+                "protocol": "progressive",
+                "mime_type": "audio/mpeg"
+              },
+              "quality": "sq"
+            },
+            {
+              "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1683761370/93215222-540c-41b1-875e-f61465fb1b61/stream/hls",
+              "preset": "opus_0_0",
+              "duration": 3757181,
+              "snipped": false,
+              "format": {
+                "protocol": "hls",
+                "mime_type": "audio/ogg; codecs=\"opus\""
+              },
+              "quality": "sq"
+            }
+          ]
+        },
+        "station_urn": "soundcloud:system-playlists:track-stations:1683761370",
+        "station_permalink": "track-stations:1683761370",
+        "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJFUyIsInN1YiI6IiIsInJpZCI6IiIsImlhdCI6MTcwMzM3MTI3NH0.ebFGnz1pGk_QyR-pzFyzLlTq19pjxtwC5W6NSHqKX8g",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW",
+        "user": {
+          "avatar_url": "https://i1.sndcdn.com/avatars-sycBeVqOklbBcHzy-j72XQg-large.jpg",
+          "first_name": "06. - 09.06.",
+          "followers_count": 7188,
+          "full_name": "06. - 09.06. 2024",
+          "id": 1103296669,
+          "kind": "user",
+          "last_modified": "2023-12-23T20:14:49Z",
+          "last_name": "2024",
+          "permalink": "hive-festival",
+          "permalink_url": "https://soundcloud.com/hive-festival",
+          "uri": "https://api.soundcloud.com/users/1103296669",
+          "urn": "soundcloud:users:1103296669",
+          "username": "HIVE Festival",
+          "verified": false,
+          "city": "Ferropolis",
+          "country_code": "DE",
+          "badges": {
+            "pro": false,
+            "pro_unlimited": true,
+            "verified": false
+          },
+          "station_urn": "soundcloud:system-playlists:artist-stations:1103296669",
+          "station_permalink": "artist-stations:1103296669"
+        }
+      },
+      {
+        "artwork_url": "https://i1.sndcdn.com/artworks-m74feiUWDAZ6pCnc-UeMByA-large.jpg",
+        "caption": null,
+        "commentable": true,
+        "comment_count": 3,
+        "created_at": "2023-12-06T15:05:55Z",
+        "description": "IG: https://www.instagram.com/slavapresnyakov/\n\nSC: https://soundcloud.com/slavapresnyakov\"",
+        "downloadable": false,
+        "download_count": 0,
+        "duration": 3587762,
+        "full_duration": 3587762,
+        "embeddable_by": "all",
+        "genre": "Psytrance",
+        "has_downloads_left": false,
+        "id": 1683774171,
+        "kind": "track",
+        "label_name": null,
+        "last_modified": "2023-12-23T09:41:51Z",
+        "license": "all-rights-reserved",
+        "likes_count": 8,
+        "permalink": "slava",
+        "permalink_url": "https://soundcloud.com/hive-festival/slava",
+        "playback_count": 50,
+        "public": true,
+        "publisher_metadata": {
+          "id": 1683774171,
+          "urn": "soundcloud:tracks:1683774171",
+          "contains_music": true
+        },
+        "purchase_title": null,
+        "purchase_url": null,
+        "release_date": null,
+        "reposts_count": 5,
+        "secret_token": null,
+        "sharing": "public",
+        "state": "finished",
+        "streamable": true,
+        "tag_list": "",
+        "title": "SLAVA",
+        "track_format": "single-track",
+        "uri": "https://api.soundcloud.com/tracks/1683774171",
+        "urn": "soundcloud:tracks:1683774171",
+        "user_id": 1103296669,
+        "visuals": null,
+        "waveform_url": "https://wave.sndcdn.com/oPEvoFbq28MJ_m.json",
+        "display_date": "2023-12-23T09:41:51Z",
+        "media": {
+          "transcodings": [
+            {
+              "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1683774171/52a4648d-7b72-4218-8f5a-561906b0ca3e/stream/hls",
+              "preset": "mp3_1_0",
+              "duration": 3587762,
+              "snipped": false,
+              "format": {
+                "protocol": "hls",
+                "mime_type": "audio/mpeg"
+              },
+              "quality": "sq"
+            },
+            {
+              "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1683774171/52a4648d-7b72-4218-8f5a-561906b0ca3e/stream/progressive",
+              "preset": "mp3_1_0",
+              "duration": 3587762,
+              "snipped": false,
+              "format": {
+                "protocol": "progressive",
+                "mime_type": "audio/mpeg"
+              },
+              "quality": "sq"
+            },
+            {
+              "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1683774171/9ff034f1-5f4a-4d11-ad06-8214677d19e0/stream/hls",
+              "preset": "opus_0_0",
+              "duration": 3587730,
+              "snipped": false,
+              "format": {
+                "protocol": "hls",
+                "mime_type": "audio/ogg; codecs=\"opus\""
+              },
+              "quality": "sq"
+            }
+          ]
+        },
+        "station_urn": "soundcloud:system-playlists:track-stations:1683774171",
+        "station_permalink": "track-stations:1683774171",
+        "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJFUyIsInN1YiI6IiIsInJpZCI6IiIsImlhdCI6MTcwMzM3MTI3NH0.ebFGnz1pGk_QyR-pzFyzLlTq19pjxtwC5W6NSHqKX8g",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW",
+        "user": {
+          "avatar_url": "https://i1.sndcdn.com/avatars-sycBeVqOklbBcHzy-j72XQg-large.jpg",
+          "first_name": "06. - 09.06.",
+          "followers_count": 7188,
+          "full_name": "06. - 09.06. 2024",
+          "id": 1103296669,
+          "kind": "user",
+          "last_modified": "2023-12-23T20:14:49Z",
+          "last_name": "2024",
+          "permalink": "hive-festival",
+          "permalink_url": "https://soundcloud.com/hive-festival",
+          "uri": "https://api.soundcloud.com/users/1103296669",
+          "urn": "soundcloud:users:1103296669",
+          "username": "HIVE Festival",
+          "verified": false,
+          "city": "Ferropolis",
+          "country_code": "DE",
+          "badges": {
+            "pro": false,
+            "pro_unlimited": true,
+            "verified": false
+          },
+          "station_urn": "soundcloud:system-playlists:artist-stations:1103296669",
+          "station_permalink": "artist-stations:1103296669"
+        }
+      },
+      {
+        "artwork_url": "https://i1.sndcdn.com/artworks-S6Yn1PJUyNRlMuCG-Ci2nCA-large.jpg",
+        "caption": null,
+        "commentable": true,
+        "comment_count": 16,
+        "created_at": "2023-12-06T15:13:18Z",
+        "description": "SC: https://soundcloud.com/the_enveloper\n\nIG: https://instagram.com/the_enveloper\"",
+        "downloadable": false,
+        "download_count": 0,
+        "duration": 3640242,
+        "full_duration": 3640242,
+        "embeddable_by": "all",
+        "genre": "Hard Techno",
+        "has_downloads_left": false,
+        "id": 1683778428,
+        "kind": "track",
+        "label_name": null,
+        "last_modified": "2023-12-23T09:42:01Z",
+        "license": "all-rights-reserved",
+        "likes_count": 21,
+        "permalink": "the-enveloper",
+        "permalink_url": "https://soundcloud.com/hive-festival/the-enveloper",
+        "playback_count": 78,
+        "public": true,
+        "publisher_metadata": {
+          "id": 1683778428,
+          "urn": "soundcloud:tracks:1683778428",
+          "contains_music": true
+        },
+        "purchase_title": null,
+        "purchase_url": null,
+        "release_date": null,
+        "reposts_count": 7,
+        "secret_token": null,
+        "sharing": "public",
+        "state": "finished",
+        "streamable": true,
+        "tag_list": "",
+        "title": "The Enveloper",
+        "track_format": "single-track",
+        "uri": "https://api.soundcloud.com/tracks/1683778428",
+        "urn": "soundcloud:tracks:1683778428",
+        "user_id": 1103296669,
+        "visuals": null,
+        "waveform_url": "https://wave.sndcdn.com/bi49c9q08WAd_m.json",
+        "display_date": "2023-12-23T09:42:01Z",
+        "media": {
+          "transcodings": [
+            {
+              "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1683778428/e646f758-7932-4f70-a6f3-5aeb7e678fea/stream/hls",
+              "preset": "mp3_1_0",
+              "duration": 3640242,
+              "snipped": false,
+              "format": {
+                "protocol": "hls",
+                "mime_type": "audio/mpeg"
+              },
+              "quality": "sq"
+            },
+            {
+              "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1683778428/e646f758-7932-4f70-a6f3-5aeb7e678fea/stream/progressive",
+              "preset": "mp3_1_0",
+              "duration": 3640242,
+              "snipped": false,
+              "format": {
+                "protocol": "progressive",
+                "mime_type": "audio/mpeg"
+              },
+              "quality": "sq"
+            },
+            {
+              "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1683778428/dfac5979-babd-4b9d-bd03-2955344c6543/stream/hls",
+              "preset": "opus_0_0",
+              "duration": 3640207,
+              "snipped": false,
+              "format": {
+                "protocol": "hls",
+                "mime_type": "audio/ogg; codecs=\"opus\""
+              },
+              "quality": "sq"
+            }
+          ]
+        },
+        "station_urn": "soundcloud:system-playlists:track-stations:1683778428",
+        "station_permalink": "track-stations:1683778428",
+        "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJFUyIsInN1YiI6IiIsInJpZCI6IiIsImlhdCI6MTcwMzM3MTI3NH0.ebFGnz1pGk_QyR-pzFyzLlTq19pjxtwC5W6NSHqKX8g",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW",
+        "user": {
+          "avatar_url": "https://i1.sndcdn.com/avatars-sycBeVqOklbBcHzy-j72XQg-large.jpg",
+          "first_name": "06. - 09.06.",
+          "followers_count": 7188,
+          "full_name": "06. - 09.06. 2024",
+          "id": 1103296669,
+          "kind": "user",
+          "last_modified": "2023-12-23T20:14:49Z",
+          "last_name": "2024",
+          "permalink": "hive-festival",
+          "permalink_url": "https://soundcloud.com/hive-festival",
+          "uri": "https://api.soundcloud.com/users/1103296669",
+          "urn": "soundcloud:users:1103296669",
+          "username": "HIVE Festival",
+          "verified": false,
+          "city": "Ferropolis",
+          "country_code": "DE",
+          "badges": {
+            "pro": false,
+            "pro_unlimited": true,
+            "verified": false
+          },
+          "station_urn": "soundcloud:system-playlists:artist-stations:1103296669",
+          "station_permalink": "artist-stations:1103296669"
+        }
+      },
+      {
+        "artwork_url": "https://i1.sndcdn.com/artworks-Q98pHIzPllDaqh96-sygq8A-large.jpg",
+        "caption": null,
+        "commentable": true,
+        "comment_count": 9,
+        "created_at": "2023-12-09T09:55:30Z",
+        "description": "IG: https://www.instagram.com/dropix_music/\n\nSC: https://on.soundcloud.com/DGvQcwXXkkEUFct86",
+        "downloadable": false,
+        "download_count": 0,
+        "duration": 3827905,
+        "full_duration": 3827905,
+        "embeddable_by": "all",
+        "genre": "Industrial and Schranz",
+        "has_downloads_left": false,
+        "id": 1686354687,
+        "kind": "track",
+        "label_name": null,
+        "last_modified": "2023-12-23T09:42:25Z",
+        "license": "all-rights-reserved",
+        "likes_count": 12,
+        "permalink": "dropix_music",
+        "permalink_url": "https://soundcloud.com/hive-festival/dropix_music",
+        "playback_count": 45,
+        "public": true,
+        "publisher_metadata": {
+          "id": 1686354687,
+          "urn": "soundcloud:tracks:1686354687",
+          "contains_music": true
+        },
+        "purchase_title": null,
+        "purchase_url": null,
+        "release_date": null,
+        "reposts_count": 1,
+        "secret_token": null,
+        "sharing": "public",
+        "state": "finished",
+        "streamable": true,
+        "tag_list": "",
+        "title": "Dropix_music",
+        "track_format": "single-track",
+        "uri": "https://api.soundcloud.com/tracks/1686354687",
+        "urn": "soundcloud:tracks:1686354687",
+        "user_id": 1103296669,
+        "visuals": null,
+        "waveform_url": "https://wave.sndcdn.com/Vis1DmJaBRx2_m.json",
+        "display_date": "2023-12-23T09:42:25Z",
+        "media": {
+          "transcodings": [
+            {
+              "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1686354687/d24f92fb-22ad-4197-acbc-b33d469a0659/stream/hls",
+              "preset": "mp3_1_0",
+              "duration": 3827905,
+              "snipped": false,
+              "format": {
+                "protocol": "hls",
+                "mime_type": "audio/mpeg"
+              },
+              "quality": "sq"
+            },
+            {
+              "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1686354687/d24f92fb-22ad-4197-acbc-b33d469a0659/stream/progressive",
+              "preset": "mp3_1_0",
+              "duration": 3827905,
+              "snipped": false,
+              "format": {
+                "protocol": "progressive",
+                "mime_type": "audio/mpeg"
+              },
+              "quality": "sq"
+            },
+            {
+              "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1686354687/b8c7e367-bd9d-4c1f-a87c-b7ab01e36308/stream/hls",
+              "preset": "opus_0_0",
+              "duration": 3827877,
+              "snipped": false,
+              "format": {
+                "protocol": "hls",
+                "mime_type": "audio/ogg; codecs=\"opus\""
+              },
+              "quality": "sq"
+            }
+          ]
+        },
+        "station_urn": "soundcloud:system-playlists:track-stations:1686354687",
+        "station_permalink": "track-stations:1686354687",
+        "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJFUyIsInN1YiI6IiIsInJpZCI6IiIsImlhdCI6MTcwMzM3MTI3NH0.ebFGnz1pGk_QyR-pzFyzLlTq19pjxtwC5W6NSHqKX8g",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW",
+        "user": {
+          "avatar_url": "https://i1.sndcdn.com/avatars-sycBeVqOklbBcHzy-j72XQg-large.jpg",
+          "first_name": "06. - 09.06.",
+          "followers_count": 7188,
+          "full_name": "06. - 09.06. 2024",
+          "id": 1103296669,
+          "kind": "user",
+          "last_modified": "2023-12-23T20:14:49Z",
+          "last_name": "2024",
+          "permalink": "hive-festival",
+          "permalink_url": "https://soundcloud.com/hive-festival",
+          "uri": "https://api.soundcloud.com/users/1103296669",
+          "urn": "soundcloud:users:1103296669",
+          "username": "HIVE Festival",
+          "verified": false,
+          "city": "Ferropolis",
+          "country_code": "DE",
+          "badges": {
+            "pro": false,
+            "pro_unlimited": true,
+            "verified": false
+          },
+          "station_urn": "soundcloud:system-playlists:artist-stations:1103296669",
+          "station_permalink": "artist-stations:1103296669"
+        }
+      },
+      {
+        "artwork_url": "https://i1.sndcdn.com/artworks-H1tQCOrQmnL1gNwa-TtIrxQ-large.jpg",
+        "caption": null,
+        "commentable": true,
+        "comment_count": 2,
+        "created_at": "2023-12-09T10:17:26Z",
+        "description": "https://linktr.ee/dunkelheitartist",
+        "downloadable": false,
+        "download_count": 0,
+        "duration": 3772813,
+        "full_duration": 3772813,
+        "embeddable_by": "all",
+        "genre": "Techno",
+        "has_downloads_left": false,
+        "id": 1686365619,
+        "kind": "track",
+        "label_name": null,
+        "last_modified": "2023-12-23T09:42:48Z",
+        "license": "all-rights-reserved",
+        "likes_count": 11,
+        "permalink": "dunkelheit",
+        "permalink_url": "https://soundcloud.com/hive-festival/dunkelheit",
+        "playback_count": 82,
+        "public": true,
+        "publisher_metadata": {
+          "id": 1686365619,
+          "urn": "soundcloud:tracks:1686365619",
+          "contains_music": true
+        },
+        "purchase_title": null,
+        "purchase_url": null,
+        "release_date": null,
+        "reposts_count": 3,
+        "secret_token": null,
+        "sharing": "public",
+        "state": "finished",
+        "streamable": true,
+        "tag_list": "",
+        "title": "Dunkelheit",
+        "track_format": "single-track",
+        "uri": "https://api.soundcloud.com/tracks/1686365619",
+        "urn": "soundcloud:tracks:1686365619",
+        "user_id": 1103296669,
+        "visuals": null,
+        "waveform_url": "https://wave.sndcdn.com/XT8ifJEmktUb_m.json",
+        "display_date": "2023-12-23T09:42:48Z",
+        "media": {
+          "transcodings": [
+            {
+              "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1686365619/9e5fc248-00dc-48e3-a881-f9683574efc0/stream/hls",
+              "preset": "mp3_1_0",
+              "duration": 3772813,
+              "snipped": false,
+              "format": {
+                "protocol": "hls",
+                "mime_type": "audio/mpeg"
+              },
+              "quality": "sq"
+            },
+            {
+              "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1686365619/9e5fc248-00dc-48e3-a881-f9683574efc0/stream/progressive",
+              "preset": "mp3_1_0",
+              "duration": 3772813,
+              "snipped": false,
+              "format": {
+                "protocol": "progressive",
+                "mime_type": "audio/mpeg"
+              },
+              "quality": "sq"
+            },
+            {
+              "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1686365619/c30eff26-5e60-4831-88ff-bca7ad35800d/stream/hls",
+              "preset": "opus_0_0",
+              "duration": 3772767,
+              "snipped": false,
+              "format": {
+                "protocol": "hls",
+                "mime_type": "audio/ogg; codecs=\"opus\""
+              },
+              "quality": "sq"
+            }
+          ]
+        },
+        "station_urn": "soundcloud:system-playlists:track-stations:1686365619",
+        "station_permalink": "track-stations:1686365619",
+        "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJFUyIsInN1YiI6IiIsInJpZCI6IiIsImlhdCI6MTcwMzM3MTI3NH0.ebFGnz1pGk_QyR-pzFyzLlTq19pjxtwC5W6NSHqKX8g",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW",
+        "user": {
+          "avatar_url": "https://i1.sndcdn.com/avatars-sycBeVqOklbBcHzy-j72XQg-large.jpg",
+          "first_name": "06. - 09.06.",
+          "followers_count": 7188,
+          "full_name": "06. - 09.06. 2024",
+          "id": 1103296669,
+          "kind": "user",
+          "last_modified": "2023-12-23T20:14:49Z",
+          "last_name": "2024",
+          "permalink": "hive-festival",
+          "permalink_url": "https://soundcloud.com/hive-festival",
+          "uri": "https://api.soundcloud.com/users/1103296669",
+          "urn": "soundcloud:users:1103296669",
+          "username": "HIVE Festival",
+          "verified": false,
+          "city": "Ferropolis",
+          "country_code": "DE",
+          "badges": {
+            "pro": false,
+            "pro_unlimited": true,
+            "verified": false
+          },
+          "station_urn": "soundcloud:system-playlists:artist-stations:1103296669",
+          "station_permalink": "artist-stations:1103296669"
+        }
+      },
+      {
+        "id": 1690991376,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1691003265,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1691006004,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1691009142,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1691023821,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1691050944,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1691055909,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1691058519,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1691188170,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1691194302,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1691213052,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1694912580,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1694919144,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1694935980,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1694999910,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695006204,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695012510,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695019140,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695019620,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695021975,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695027342,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695030036,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695033066,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695067401,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695071958,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695093132,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695093822,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695095439,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695098778,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695102372,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695104091,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695108453,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695141030,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695166881,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695167172,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695179571,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695180813,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695193776,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695199464,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695230820,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695234537,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695269154,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695359877,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695362166,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695368772,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695375405,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695388173,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1696382346,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1696394319,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1696395519,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1696768071,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1696849779,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1696863888,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1696957179,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1696960605,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1696969143,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1696971954,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1696973088,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1696978716,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1696979628,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1697857521,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      },
+      {
+        "id": 1695090351,
+        "kind": "track",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW"
+      }
+    ],
+    "track_count": 67
+  }

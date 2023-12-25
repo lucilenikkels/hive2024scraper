@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hive 2024 Battle</title>
+    <script src="/jquery/dist/jquery.js"></script>
+    <script src="/scraper.js"></script>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+    <div>
+        <h1>Hive 2024 DJ Contest Rankings</h1>
+    </div>
+    <div id="bodydiv">
+        <button id="genreButton" onclick="hardTechOnly(this)" value="OFF">Only Hardtechno: OFF</button>
+        <button id="genderButton" onclick="womenOnly(this)" value="OFF">Only Women: OFF</button>
+        <style type="text/css">
+          .tg  {border-collapse:collapse;border-spacing:0;}
+          .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+            overflow:hidden;padding:10px 5px;word-break:normal;}
+          .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+            font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+          .tg .tg-0lax{text-align:left;vertical-align:top}
+        </style>
+        <table class="tg">
+        <thead>
+          <tr>
+            <td class="tg-0lax">Ranking</td>
+            <td class="tg-0lax">Ranking (women)</td>
+            <td class="tg-0lax">DJ</td>
+            <td class="tg-0lax">Genre</td>
+            <td class="tg-0lax">Points</td>
+            <td class="tg-0lax">Streams</td>
+            <td class="tg-0lax">Likes</td>
+            <td class="tg-0lax">Comments</td>
+          </tr>
+        </thead>
+        <tbody class="target">
+
+        </tbody>
+        </table>
+    </div>
+</body>
+</html>
